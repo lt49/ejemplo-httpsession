@@ -16,7 +16,6 @@ public class Persona {
     private String apellidopt;
     private String apellidomt;
     private int dni;
-    private String direccion;
 
     public Persona() {
         this.idpersona = 0;
@@ -28,7 +27,6 @@ public class Persona {
         this.apellidopt = apellidopt;
         this.apellidomt = apellidomt;
         this.dni = dni;
-        this.direccion = direccion;
     }
 
     public int getIdpersona() {
@@ -71,14 +69,5 @@ public class Persona {
         this.dni = dni;
     }
 
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
-    }
-    
-    
     
 }
