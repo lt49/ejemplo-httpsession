@@ -16,17 +16,19 @@ public class Persona {
     private String apellidopt;
     private String apellidomt;
     private int dni;
+    private int edad;
 
     public Persona() {
         this.idpersona = 0;
     }
 
-    public Persona(int idpersona, String nombre, String apellidopt, String apellidomt, int dni, String direccion) {
+    public Persona(int idpersona, String nombre, String apellidopt, String apellidomt, int dni, String direccion, int edad) {
         this.idpersona = idpersona;
         this.nombre = nombre;
         this.apellidopt = apellidopt;
         this.apellidomt = apellidomt;
         this.dni = dni;
+        this.edad = edad;
     }
 
     public int getIdpersona() {
@@ -67,6 +69,14 @@ public class Persona {
 
     public void setDni(int dni) {
         this.dni = dni;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 
     
