@@ -21,6 +21,7 @@ public class Persona {
     public Persona() {
         this.idpersona = 0;
     }
+    
 
     public Persona(int idpersona, String nombre, String apellidopt, String apellidomt, int dni, String direccion, int edad) {
         this.idpersona = idpersona;
