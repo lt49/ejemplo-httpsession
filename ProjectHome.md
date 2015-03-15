@@ -1,0 +1,1 @@
+prueba de httpsession jsp, servlets, sin base de datos. como aprendizaje propio
